@@ -1,37 +1,43 @@
 <?php
 /**
- * onepiece-framework.com:/app/layout/onepiece/html.phtml
+ * layout-onepiece:/html.phtml
  *
  * @creation  2017-09-07
  * @version   1.0
- * @package   onepiece-framework.com
+ * @package   layout-onepiece
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
+
+/** namespace
+ *
+ * @created   2019-02-23
+ */
+namespace OP;
+
+/** Used class.
+ *
+ */
+
+/* @var $app    \OP\UNIT\App */
+/* @var $content string      */
 ?>
 <!doctype html>
-<html lang="<?= App::Lang() ?>">
+<html lang="<?= Env::Lang() ?>">
 	<head>
-		<?php Template::Run('head.phtml') ?>
+		<?= $app->Template('layout/head.phtml') ?>
 	</head>
 	<body id="body" class="body">
 		<div id="head-area">
-			<?= Template::Get('header.phtml') ?>
+			<?= $app->Template('header.phtml') ?>
 		</div>
 		<div id="body-area" class="body-area">
-			<div>
-				<!-- left menu -->
-			</div>
 			<div id="content-area" class="content-area">
 				<?= $content ?>
 			</div>
-			<div>
-				<!-- right menu -->
-			</div>
 		</div>
 		<div id="foot-area">
-			<?= Template::Get('footer.phtml') ?>
+			<?= $app->Template('footer.phtml') ?>
 		</div>
-		<?= Template::Get('google-analytics.phtml') ?>
 	</body>
 </html>

@@ -1,23 +1,17 @@
 <?php
 /**
- * onepiece-framework.com:/app/layout/white/css/action.php
+ * layout-onepiece:/css/action.php
  *
  * @creation  2017-09-07
  * @version   1.0
- * @package   op-skeleton
+ * @package   layout-onepiece
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
 //	...
-$extension = 'css';
-
-//	...
-$files = [
-	'reset',
-	'body',
-	'header',
-	'footer',
+return [
+	__DIR__.'/reset',
+	__DIR__.'/body',
+	__DIR__.'/header',
+	__DIR__.'/footer',
 ];
-
-//	...
-Webpack::Run(__DIR__, $files, $extension);
