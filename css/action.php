@@ -11,6 +11,7 @@
 //	...
 return [
 	__DIR__.'/reset',
+	__DIR__.'/color',
 	__DIR__.'/body',
 	__DIR__.'/header',
 	__DIR__.'/footer',
