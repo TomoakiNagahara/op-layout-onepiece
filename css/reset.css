@@ -1,0 +1,16 @@
+/**
+ * onepiece-framework.com:/app/layout/white/css/reset.css
+ *
+ * @creation  2017-01-12
+ * @version   1.0
+ * @package   onepiece-framework.com
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+/**
+ * box-sizing is including padding and border-width.
+ * That is, the width remains the same.
+ */
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
