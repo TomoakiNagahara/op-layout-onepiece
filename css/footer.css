@@ -1,0 +1,16 @@
+/**
+ * onepiece-framework.com:/app/layout/white/css/footer.css
+ *
+ * @creation  2017-02-21
+ * @version   1.0
+ * @package   onepiece-framework.com
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+body.body footer {
+	padding-right: 0.5em;
+	text-align: right;
+	color: white;
+	background-color: black;
+}
