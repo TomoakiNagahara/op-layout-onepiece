@@ -1,0 +1,22 @@
+/**
+ * layout-onepiece:/css/color.css
+ *
+ * @creation  2019-03-13
+ * @version   1.0
+ * @package   layout-onepiece
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+body.body .OP_NOTICE {
+	background-color: black;
+	color: white;
+}
+
+body.body .OP_NOTICE .args .arg.boolean.true {
+	color: aqua;
+}
+
+body.body .OP_NOTICE .args .arg.object {
+	color: lime;
+}
