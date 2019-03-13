@@ -1,0 +1,70 @@
+/**
+ * onepiece-framework.com:/app/layout/onepiece/css/body.css
+ *
+ * @creation  2017-09-07
+ * @version   1.0
+ * @package   app-skeleton
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+/**
+ * Font family
+ */
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic);
+
+body.body {
+	font-family: Avenir, "Open Sans", sans-serif;
+	background-color: black;
+	color: white;
+
+	margin:	 0;
+	padding: 0;
+
+	font-size:		  9.0pt;
+	font-weight:	 normal;
+	line-height:	 1.1;
+	letter-spacing:	 0;
+}
+
+body.body div.content-area {
+	margin: 1em;
+}
+
+#head-area {
+	border: 1px solid black;
+
+	margin:	 0;
+	padding: 0;
+	width:	 100vw;
+	height: 30px;
+
+	vertical-align: middle;
+	display: table-cell;
+}
+
+#body-area {
+	border: 1px solid white;
+
+	margin:	 0;
+	padding: 0;
+
+	min-height: calc(100vh - 30px - 30px);
+}
+
+#foot-area {
+	border:	 1px solid black;
+
+	margin:	 0;
+	padding: 0;
+	width:	 100vw;
+	height:	 30px;
+
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.body-area {
+	color:	 black;
+	background-color: white;
+}
