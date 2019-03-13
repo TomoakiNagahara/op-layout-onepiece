@@ -8,4 +8,8 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 //	...
-console.log('JS loading successful');
+try {
+	console.log('JS loading successful');
+} catch (e){
+	console.dir(e);
+}
