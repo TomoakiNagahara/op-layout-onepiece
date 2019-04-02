@@ -33,14 +33,6 @@ body.body div.content-area {
 
 #head-area {
 	border: 1px solid black;
-
-	margin:	 0;
-	padding: 0;
-	width:	 100vw;
-	height: 30px;
-
-	vertical-align: middle;
-	display: table-cell;
 }
 
 #body-area {
