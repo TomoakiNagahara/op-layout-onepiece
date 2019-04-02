@@ -9,17 +9,25 @@
  */
 
 body.body header {
-	vertical-align: middle;
-	display: table-cell;
+
 }
 
-body.body header img {
-	margin: 0 0.5em;
-	width: 22px;
-	float: left;
+body.body header > a {
+	float:left;
 }
 
-body.body header a {
+body.body header > a > img {
+	margin-top:   0.25em;
+	margin-left:  0.25em;
+	margin-right: 0.50em;
+	width:  2.6em;
+}
+
+body.body header > div {
+	padding: 0.65em;
+}
+
+body.body header > div > a {
 	color: white;
 	text-decoration: none;
 }
