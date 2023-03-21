@@ -1,10 +1,9 @@
 <?php
-/**
- * layout-onepiece:/js/action.php
+/** op-layout-onepiece:/js/action.php
  *
  * @creation  2019-03-13
  * @version   1.0
- * @package   layout-onepiece
+ * @package   op-layout-onepiece
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
