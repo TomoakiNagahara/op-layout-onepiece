@@ -1,15 +1,15 @@
-/**
- * layout-onepiece:/css/header.css
+
+/** op-layout-onepiece:/css/header.css
  *
  * @creation  2017-09-08
  * @version   1.0
- * @package   layout-onepiece
+ * @package   op-layout-onepiece
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
 body.body header {
-
+    margin: 0;
 }
 
 body.body header > a {
