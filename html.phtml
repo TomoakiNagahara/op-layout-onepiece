@@ -18,25 +18,23 @@ namespace OP;
  *
  */
 
-/* @var $app    \OP\UNIT\App */
-/* @var $content string      */
 ?>
 <!doctype html>
 <html lang="<?= Env::Lang() ?>">
 	<head>
-		<?= $app->Template('layout/head.phtml') ?>
+		<?= Template('layout/head.phtml') ?>
 	</head>
-	<body id="body" class="body" role="document" itemscope itemtype="http://schema.org/WebPage">
+	<body id="body" class="body" role="document">
 		<div id="head-area">
-			<?= $app->Template('header.phtml') ?>
+			<?= Template('header.phtml') ?>
 		</div>
 		<div id="body-area" class="body-area">
 			<div id="content-area" class="content-area">
-				<?= $content ?>
+				<?= Content(); ?>
 			</div>
 		</div>
 		<div id="foot-area">
-			<?= $app->Template('footer.phtml') ?>
+			<?= Template('footer.phtml') ?>
 		</div>
 	</body>
 </html>
