@@ -18,11 +18,10 @@ namespace OP;
  *
  */
 
-/* @var $app \OP\UNIT\App */
 ?>
 <header>
-	<a href="<?= $app->URL('app:/') ?>"><img src="/img/icon.png"/></a>
+	<a href="<?= OP::MetaPath('app:/', true) ?>"><img src="/img/icon.png"/></a>
 	<div>
-		<a href="<?= $app->URL('app:/') ?>"><span>onepiece-framework.com</span></a>
+		<a href="<?= OP::MetaPath('app:/', true) ?>"><span>onepiece-framework.com</span></a>
 	</div>
 </header>
