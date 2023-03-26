@@ -8,7 +8,7 @@
  * @copyright  Tomoaki Nagahara All right reserved.
  */
 
-span.args > span.arg > span.arg.string {
+.notice span.args > span.arg > span.arg.string {
 	color: white;
 	text-decoration: underline;
 }
