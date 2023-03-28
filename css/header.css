@@ -16,6 +16,12 @@ body.body header > a {
 	float:left;
 }
 
+body.body header > a,
+body.body header > a:hover,
+body.body header > a:visited {
+	color: white;
+}
+
 body.body header > a > img {
 	margin-top:   0.25em;
 	margin-left:  0.25em;
