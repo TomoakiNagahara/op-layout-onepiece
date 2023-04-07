@@ -16,9 +16,9 @@ body.body header > a {
 	float:left;
 }
 
-body.body header > a,
-body.body header > a:hover,
-body.body header > a:visited {
+body.body header a,
+body.body header a:hover,
+body.body header a:visited {
 	color: white;
 }
 
