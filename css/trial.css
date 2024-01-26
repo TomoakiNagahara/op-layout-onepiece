@@ -1,0 +1,18 @@
+
+/** op-layout-onepiece:/css/trial.css
+ *
+ * @creation  2024-01-16
+ * @version   1.0
+ * @package   op-layout-onepiece
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+/** Text wrap is baransing.
+ * @see https://developer.chrome.com/docs/css-ui/css-text-wrap-balance?hl=ja
+ */
+/*
+.text-wrap-balance {
+	text-wrap: balance;
+}
+*/
