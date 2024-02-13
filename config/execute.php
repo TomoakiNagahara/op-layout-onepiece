@@ -1,9 +1,9 @@
 <?php
-/** app-skeleton-2020-nep:/asset/config/execute.php
+/** op-layout-onepiece:/asset/config/execute.php
  *
  * @created   2023-01-26
  * @version   1.0
- * @package   app-skeleton-2020-nep
+ * @package   op-layout-onepiece
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
