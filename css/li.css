@@ -1,0 +1,14 @@
+
+/** op-layout-onepiece:/css/li.css
+ *
+ * @creation  2025-02-22
+ * @version   1.0
+ * @package   op-layout-onepiece
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+li {
+	margin-top:    0.5em;
+	margin-bottom: 0.5em;
+}
