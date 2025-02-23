@@ -1,0 +1,19 @@
+
+/** op-layout-onepiece:/css/code.css
+ *
+ * @creation  2025-02-22
+ * @version   1.0
+ * @package   op-layout-onepiece
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+code {
+	font-size: 1.2em;
+	background-color: #f0f0f0;
+	padding: 0.05em 0.2em;
+	border: 1px solid #e0e0e0;
+	border-radius: 0.2em;
+	position: relative;
+	top: -0.1em;
+}
