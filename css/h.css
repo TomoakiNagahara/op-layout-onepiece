@@ -1,0 +1,33 @@
+
+/** op-layout-onepiece:/css/h.css
+ *
+ * @creation  2025-02-22
+ * @version   1.0
+ * @package   op-layout-onepiece
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
+_h1 ~ * {
+	margin-left: 1em;
+}
+
+h2 ~ h3 {
+	margin-left: 1em;
+}
+
+h2 ~ p {
+	margin-left: 1.4em;
+}
