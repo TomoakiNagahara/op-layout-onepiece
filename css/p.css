@@ -1,0 +1,13 @@
+
+/** op-layout-onepiece:/css/p.css
+ *
+ * @creation  2025-03-17
+ * @version   1.0
+ * @package   op-layout-onepiece
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+p {
+	line-height: 1.5;
+}
