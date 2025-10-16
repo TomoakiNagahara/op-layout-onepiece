@@ -8,6 +8,11 @@
  * @copyright  Tomoaki Nagahara All right reserved.
  */
 
+/**	namespace
+ *
+ */
+namespace OP;
+
 //	...
 return [
 	'darkmode' => 0,
