@@ -4,7 +4,7 @@
  * @creation  2017-01-05
  * @version   1.0
  * @package   op-layout-onepiece
- * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @author    Tomoaki Nagahara
  * @copyright Tomoaki Nagahara All right reserved.
  */
 include('html.phtml');
