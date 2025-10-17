@@ -5,7 +5,7 @@
  * @updated    2023-03-24 2.0: Automatically entry
  * @version    2.0
  * @package    op-layout-onepiece
- * @author     Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @author     Tomoaki Nagahara
  * @copyright  Tomoaki Nagahara All right reserved.
  */
 
