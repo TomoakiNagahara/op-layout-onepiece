@@ -35,7 +35,7 @@ body.body div.content-area {
 	margin:	 0;
 	padding: 0;
 
-	min-height: calc(100vh - 30px - 30px);
+	min-height: calc(100vh - 80px);
 }
 
 #foot-area {
