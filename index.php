@@ -5,6 +5,6 @@
  * @version   1.0
  * @package   op-layout-onepiece
  * @author    Tomoaki Nagahara
- * @copyright Tomoaki Nagahara All right reserved.
+ * @copyright Tomoaki Nagahara All rights reserved.
  */
 include('html.phtml');
