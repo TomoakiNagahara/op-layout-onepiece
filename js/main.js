@@ -9,7 +9,7 @@
  */
 //	...
 try {
-	console.log('Loading onepiece layout was successful!');
+	console.log('Loading the ONEPIECE layout was successful!');
 } catch (e){
 	console.dir(e);
 }
