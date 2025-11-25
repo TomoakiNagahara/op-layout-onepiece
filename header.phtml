@@ -17,10 +17,20 @@ namespace OP;
 //	...
 OP()->Unit()->WebPack()->Auto('css/header.css');
 
+/* @var $login \OP\UNIT\Login */
+$login = OP()->Unit('Login');
+
 ?>
 <header>
 	<a href="<?= OP::URL('app:/') ?>"><img src="/webpack/img/onepiece.png"/></a>
 	<div>
 		<a href="<?= OP::URL('app:/') ?>"><span>onepiece-framework.com</span></a>
+		<div style="float: right;">
+			<?php if( $login->isLoggedin() ): ?>
+				<a href="<?= OP()->URL('app:/login/logout') ?>">Logout</a>
+			<?php else: ?>
+				<a href="<?= OP()->URL('app:/login/') ?>">Login</a>
+			<?php endif; ?>
+		</div>
 	</div>
 </header>
