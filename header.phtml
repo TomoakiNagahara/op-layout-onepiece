@@ -27,7 +27,7 @@ $login = OP()->Unit('Login');
 		<a href="<?= OP::URL('app:/') ?>"><span>onepiece-framework.com</span></a>
 		<div style="float: right;">
 			<?php if( $login->isLoggedin() ): ?>
-				<a href="<?= OP()->URL('app:/login/logout') ?>">Logout</a>
+				<a href="<?= OP()->URL('app:/mypage/') ?>"><?= OP()->Unit('Login')->Info()['account'] ?></a>
 			<?php else: ?>
 				<a href="<?= OP()->URL('app:/login/') ?>">Login</a>
 			<?php endif; ?>
